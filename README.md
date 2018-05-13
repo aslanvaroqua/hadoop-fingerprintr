@@ -37,7 +37,7 @@ or with a cluster setup:
 You'll need to put files into HDFS to leverage the cluster setup.
 Also edit pig/include-hdfs.pig to specify your HDFS URI.
 
-## Packetloop Loaders
+## Example Forensics - For educational purposes only unless you have the authority by law to do so (or a subpoena). Don't f around!
 
 ### ConversationLoader
 
