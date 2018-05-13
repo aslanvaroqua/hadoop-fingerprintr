@@ -8,7 +8,7 @@
 <td> 
 <h1>PassivePackets - Community Edition </h1>
 <p>An <b>Open Source Big Data Forensics/Data Packet Analysis</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. The full-version which is proprietary and will never be made public is able to see-through NAT and Firewalls by analyzing minute differences in the way devices send and recieve data *purposely vaugue... I purposely left out parts of the program I believe is unsafe in the wrong hands such as those that do live capture off a wire, file extractions, and ssl stripping (few methods) for the obvious reasons. This version only operates with PCAP files and non encrpyted data. You can find public pcap files that are released by US govt agencies for educational purposes. To be clear. this code doesn't do live captures nor does it do ssl (encrypted) but we do  and we are good at it. So, if you are acting within the law and need network forensics services then contact us and we may be able to help you and we love big data. 
-    <td>
+    <tr>
 
 corporate@duasamericasgroup.com </p>
 <p>
