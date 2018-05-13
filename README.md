@@ -1,5 +1,5 @@
-<img width="200" height="200" src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png" />
-<table><tr>
+<img src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png" />
+<table>
 <td>
 <td>
 <h1>PassiveForensics</h1>
