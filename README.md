@@ -1,5 +1,5 @@
 <table><tr>
-<td><img width="100" height="100" src="https://raw.github.com/aslanvaroqua/passiveintel/master/packetpig.png" />
+<td><img width="200" height="200" src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png" />
 <td>
 <h1>PassiveForensics</h1>
 <p>An <b>Open Source Big Data Security Analytics</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. It is able to see-through NAT and Firewalls... It can identify users commiting internet crimes even when they are using a tor browser or proxy.</p>
