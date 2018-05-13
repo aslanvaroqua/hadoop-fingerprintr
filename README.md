@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png" />
+<img width=50% height=auto src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png" />
 <table>
 <td>
 <td>
