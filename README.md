@@ -11,11 +11,13 @@ Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Ame
 </p>
     
 </table>
+<style>
 img[src$="centerme"] {
   display:block;
   margin: 0 auto;
   background-color:black;
 }
+</style>
 ## Note
 
 If Markdown is painful in your text editor, run lib/scripts/readme.py from this directory and it'll generate a README.html for you. You'll need the markdown python module installed.
