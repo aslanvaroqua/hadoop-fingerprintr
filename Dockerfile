@@ -1,5 +1,5 @@
 FROM ubuntu:precise
-MAINTAINER Michael Baker <cloudjunky@gmail.com>
+MAINTAINER Aslan Varoqua <aslan.varoqua@duasamericasgroup.com>
 
 RUN echo "deb http://archive.cloudera.com/debian maverick-cdh3 contrib" > /etc/apt/sources.list.d/cloudera.list
 RUN echo "deb-src http://archive.cloudera.com/debian maverick-cdh3 contrib" >> /etc/apt/sources.list.d/cloudera.list
@@ -70,11 +70,11 @@ RUN cd /src &&\
 #Set Java Environment
 #ENV JAVA_HOME /usr/lib/jvm/java-6-openjdk/
 ENV JAVA_HOME /usr/lib/jvm/java-6-openjdk-amd64/
-ENV PPD /src/packetpig/
+ENV PPD /src/passiveforensics/
 
 #Clone and run Packetpig
 RUN cd /src/ &&\
-  git clone https://github.com/packetloop/packetpig.git && cd packetpig &&\
+  git clone https://github.com/packetloop/passiveforensics.git && cd passiveforensics &&\
   lib/scripts/tcp.py -r data/web.pcap -om http_headers -of tsv | less &&\
   lib/scripts/dns_parser.py -r data/web.pcap && mkdir out &&\
   pig -x local -f pig/examples/binning.pig -param pcap=data/web.pcap -param output=output && more output/binning/part-r-00000

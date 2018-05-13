@@ -70,43 +70,43 @@ cd /src &&\
 #Set Java Environment
 #ENV JAVA_HOME /usr/lib/jvm/java-6-openjdk/
 ENV JAVA_HOME /usr/lib/jvm/java-6-openjdk-amd64/
-ENV PPD /src/passivenat/
+ENV PPD /src/passiveforensics/
 
 # executables
-cp /src/passivenat/install \
+cp /src/passiveforensics/install \
    /usr/local/bin/dp_recovery 
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dprinter5
 
-cp /src/passivenat/dprinter_key \
+cp /src/passiveforensics/dprinter_key \
   /usr/local/bin/dprinter10
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dprinter15
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dprinter20
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dprinter25
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dprinter30
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dp5
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dp10
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dp15
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dp20
 
-cp /src/passivenat/dprinter \
+cp /src/passiveforensics/dprinter \
    /usr/local/bin/dp25
 
 
@@ -114,7 +114,7 @@ chmod -X /usr/local/bin/dp*
 
 #Clone and run Packetpig
 cd /src/ &&\
-  git clone https://github.com/packetloop/passivenat.git && cd passivenat&&\
+  git clone https://github.com/packetloop/passiveforensics.git && cd passiveforensics&&\
   lib/scripts/tcp.py -r data/web.pcap -om http_headers -of tsv | less &&\
   lib/scripts/dns_parser.py -r data/web.pcap && mkdir out &&\
   pig -x local -f pig/examples/binning.pig -param pcap=data/web.pcap -param output=output && more output/binning/part-r-00000
