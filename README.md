@@ -7,7 +7,10 @@
 <tr>
 <td> 
 <h1>PassivePackets - Community Edition </h1>
-<p>An <b>Open Source Big Data Forensics/Data Packet Analysis</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. The full-version which is proprietary and will never be made public is able to see-through NAT and Firewalls by analyzing minute differences in the way devices appear and route data to map an entire network including the distances of nodes which allow us to reconstuct large data streams and create a trail that allows us to identify what data belongs to who *purposely vaugue... It can identify users commiting internet crimes even when they are using a tor browser or proxy. I purposely left out parts of the program that do live capture, file extractions, and ssl stripping (moxie method) for the obvious reasons. This version only operates with PCAP files and port 80 non encrpyted data. You can find public pcap files that are released by US govt agencies for educational purposes. To be clear. this code doesn't do live captures nor does it do ssl (encrypted) but we do forensics and we are good at it. So, if you are acting within the law and need network forensics services then contact us and we may be able to help. If your up to no good get lost.  corporate@duasamericasgroup.com </p>
+<p>An <b>Open Source Big Data Forensics/Data Packet Analysis</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. The full-version which is proprietary and will never be made public is able to see-through NAT and Firewalls by analyzing minute differences in the way devices send and recieve data *purposely vaugue... I purposely left out parts of the program I believe is unsafe in the wrong hands such as those that do live capture off a wire, file extractions, and ssl stripping (few methods) for the obvious reasons. This version only operates with PCAP files and non encrpyted data. You can find public pcap files that are released by US govt agencies for educational purposes. To be clear. this code doesn't do live captures nor does it do ssl (encrypted) but we do  and we are good at it. So, if you are acting within the law and need network forensics services then contact us and we may be able to help you and we love big data. 
+    <td>
+
+corporate@duasamericasgroup.com </p>
 <p>
 Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Americas Group Inc. </a>.
 
@@ -210,21 +213,6 @@ Arguments:
 - pcap: path to the capture (or directory of captures) to work on
 - time: the bin period (default: 60)
 
-### pig/examples/conversation_info.pig
-
-Conversation info, which includes a list of intervals within the conversation.
-
-Arguments:
-
-- pcap: path to the capture (or directory of captures) to work on
-
-### pig/examples/conversations.pig
-
-Join conversations to packets and shows 4tuple + conversation length.
-
-Arguments:
-
-- pcap: path to the capture (or directory of captures) to work on
 
 ### pig/examples/dns.pig
 
@@ -242,14 +230,7 @@ Arguments:
 
 - pcap: path to the capture (or directory of captures) to work on
 
-### pig/examples/extract_files.pig
 
-Extract files out of conversations.
-
-Arguments:
-
-- pcap: path to the capture (or directory of captures) to work on
-- path: directory to store files in
 
 ### pig/examples/histogram.pig
 
@@ -278,13 +259,7 @@ Arguments:
 - pcap: path to the capture (or directory of captures) to work on
 - snortconfig: the path to the snort config (default: built-in snort config)
 
-### pig/examples/device_fingerprint.pig
 
-Show p0f fingerprints of packets.
-
-Arguments:
-
-- pcap: path to the capture (or directory of captures) to work on
 
 ### pig/examples/protocol_size_histogram.pig
 
