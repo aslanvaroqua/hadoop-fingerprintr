@@ -1,12 +1,6 @@
 <table>
 <div width="300px" align="center">
 <img width="300px" src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
-    
-img[src$="centerme"] {
-  display:block;
-  margin: 0 auto;
-  background-color:black;
-}
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
@@ -17,7 +11,11 @@ Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Ame
 </p>
     
 </table>
-
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+  background-color:black;
+}
 ## Note
 
 If Markdown is painful in your text editor, run lib/scripts/readme.py from this directory and it'll generate a README.html for you. You'll need the markdown python module installed.
