@@ -281,7 +281,7 @@ Arguments:
 - pcap: path to the capture (or directory of captures) to work on
 - snortconfig: the path to the snort config (default: built-in snort config)
 
-### pig/examples/p0f_fingerprint.pig
+### pig/examples/device_fingerprint.pig
 
 Show p0f fingerprints of packets.
 
