@@ -15,7 +15,7 @@ Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Ame
 img[src$="centerme"] {
   display:block;
   margin: 0 auto;
-  background-color:black;
+  background:black;
 }
 </style>
 ## Note
