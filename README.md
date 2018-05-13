@@ -1,11 +1,10 @@
 <table><tr>
-<td><img width="100" height="100" src="https://raw.github.com/packetloop/packetpig/master/packetpig.png" />
+<td><img width="100" height="100" src="https://raw.github.com/aslanvaroqua/passiveintel/master/packetpig.png" />
 <td>
-<h1>Packetpig</h1>
-<p>An <b>Open Source Big Data Security Analytics</b> tool that analyses <a href="http://en.wikipedia.org/wiki/Pcap">pcap</a> files using <a href="http://pig.apache.org/">Apache Pig</a>.</p>
+<h1>PassiveIntel</h1>
+<p>An <b>Open Source Big Data Security Analytics</b> tool that collects information of the wire using <a href="http://pig.apache.org/">Apache Pig</a>.</p>
 <p>
-Created by <a href="https://www.packetloop.com/">Packetloop</a>.
-See the <a href="http://blog.packetloop.com/search/label/packetpig">Packetloop Blog</a> for Packetpig tips and tricks.
+Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Americas Group Inc. </a>.
 </p>
 </table>
 
