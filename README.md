@@ -6,7 +6,8 @@
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
-<p>An <b>Open Source Big Data Forensics</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. It is able to see-through NAT and Firewalls... It can identify users commiting internet crimes even when they are using a tor browser or proxy. I purposely left out the part where you get the raw data packets for the obvious reasons. This version only operates with PCAP files. You can find public pcap files that are released by US govt agencies for educational purposes. Now, where you ultimitely decide to get those packets is up to you. However, if you don't got a signed order from a judge I highly reccomend you don't mess around on the wire. </p>
+<p>An <b>Open Source Big Data Forensics</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. It is able to see-through NAT and Firewalls... It can identify users commiting internet crimes even when they are using a tor browser or proxy. I purposely left out the part where you get the raw data packets for the obvious reasons. This version only operates with PCAP files. You can find public pcap files that are released by US govt agencies for educational purposes. Now, if you don't got a signed order from a judge I highly reccomend you don't mess around on the wire. To be clear. this code doesn't do live captures nor does it do ssl (encrypted) but we do forensics and we are good at it. 
+So, contact us and we may be able to help if you have the legal authority to do so. </p>
 <p>
 Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Americas Group Inc. </a>.
 
