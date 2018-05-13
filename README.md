@@ -4,7 +4,7 @@
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
-<p>An <b>Open Source Big Data Security Analytics</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. It is able to see-through NAT and Firewalls... It can identify users commiting internet crimes even when they are using a tor browser or proxy. I purposely left out the part where you get the raw data packets for the obvious reasons. This version only operates with PCAP files. Where you get those packets is your business.</p>
+<p>An <b>Open Source Big Data Security Analytics</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. It is able to see-through NAT and Firewalls... It can identify users commiting internet crimes even when they are using a tor browser or proxy. I purposely left out the part where you get the raw data packets for the obvious reasons. This version only operates with PCAP files. Where you get those packets is your business. However, I reccomend you don't mess around on the wire as you may end up locked w/o a subpoena.</p>
 <p>
 Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Americas Group Inc. </a>.
 
