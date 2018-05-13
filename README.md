@@ -5,23 +5,10 @@
     <p>"If you know the enemy and know yourself, you need not fear the result of a hundred battles." - Quote by Sun Tzu</p>
 </div>
 <tr>
-<td>                                                                                                                     <h1>PassiveForensics </h1>
-<p>An <b>Open Source Big Data Forensics</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. It is able to see-through NAT and Firewalls... It can identify users commiting internet crimes even when they are using a tor browser or proxy. I purposely left out the part where you get the raw data packets for the obvious reasons. This version only operates with PCAP files. You can find public pcap files that are released by US govt agencies for educational purposes. Now, if you don't got a signed order from a judge I highly reccomend you don't mess around on the wire. To be clear. this code doesn't do live captures nor does it do ssl (encrypted) but we do forensics and we are good at it. 
-So, contact us and we may be able to help if you have the legal authority to do so. </p>
+<td>                                                                                                                     <h1>PassiveForensics - Community Edition </h1>
+<p>An <b>Open Source Big Data Forensics</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. The full-version which is proprietary and will never be made public is able to see-through NAT and Firewalls... It can identify users commiting internet crimes even when they are using a tor browser or proxy. I purposely left out parts of the program that do live capture, file extractions, and ssl stripping (moxie method) for the obvious reasons. This version only operates with PCAP files and port 80 non encrpyted data. You can find public pcap files that are released by US govt agencies for educational purposes. To be clear. this code doesn't do live captures nor does it do ssl (encrypted) but we do forensics and we are good at it. So, if you are acting within the law and need network forensics services then contact us and we may be able to help.  corporate@duasamericasgroup.com </p>
 <p>
 Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Americas Group Inc. </a>.
-
-</p>
-    
-</table>
-<style>
-#black {
-  display:block;
-  margin: 0 auto;
-  background:black;
-}
-</style>
-## Note
 
 If Markdown is painful in your text editor, run lib/scripts/readme.py from this directory and it'll generate a README.html for you. You'll need the markdown python module installed.
 
