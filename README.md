@@ -36,21 +36,12 @@ or with a cluster setup:
 You'll need to put files into HDFS to leverage the cluster setup.
 Also edit pig/include-hdfs.pig to specify your HDFS URI.
 
-## Example Forensics - For educational purposes... Do NOT modify or use unauthorized data sources.
+## Example Forensics - Educational
 
 ### ConversationLoader
 
 A frontend to lib/scripts/tcp.py which gives you a record per TCP connection, along with src, dst, end state, timestamps of each packet, and intervals between each packet.
 
-### FingerprintLoader
-
-A frontend to p0f, giving you an operating system for each packet in a pcap.
-
-See pig/examples/p0f.pig for correlating Snort with p0f.
-
-### SnortLoader
-
-A frontend to Snort which produces a record for each alert triggered.
 
 ## Packetloop UDFs
 
