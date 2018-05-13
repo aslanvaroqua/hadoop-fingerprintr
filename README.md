@@ -1,13 +1,6 @@
 <table>
 <div id="black" backgroun="black" align="center">
 <img src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
-<style>
-#black {
-  display:block;
-  margin: 0 auto;
-  background:black;
-}
-</style>
 ## Note
 </div>
 <tr>
