@@ -1,6 +1,6 @@
 <table>
-<div width="300px" align="center">
-<img width="300px" src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
+<div id="black" align="center">
+<img src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
@@ -12,7 +12,7 @@ Created by <a href="https://www.duasamericasgroup.com/">Aslan Varoqua - Duas Ame
     
 </table>
 <style>
-img[src$="centerme"] {
+#black {
   display:block;
   margin: 0 auto;
   background:black;
