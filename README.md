@@ -1,6 +1,6 @@
 <table>
 <div width="300px" align="center">
-<img width="300px"" height="auto" src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png" />
+<img width="300px" background-color="black" height="auto" src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png" />
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
