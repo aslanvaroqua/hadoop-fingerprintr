@@ -2,7 +2,7 @@
 <div id="black" backgroun="black" align="center">
 <img width=400 src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
 <br>
-Know your enemy.
+    <p>“If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.”</p>
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
