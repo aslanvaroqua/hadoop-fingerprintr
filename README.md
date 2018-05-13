@@ -1,7 +1,8 @@
 <table>
 <div id="black" backgroun="black" align="center">
 <img width=400 src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
-## Note
+<br>
+Know your enemy.
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
