@@ -1,6 +1,6 @@
 <table>
 <div id="black" backgroun="black" align="center">
-<img src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
+<img width=400 src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
 ## Note
 </div>
 <tr>
