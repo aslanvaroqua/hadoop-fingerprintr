@@ -2,7 +2,7 @@
 <div id="black" backgroun="black" align="center">
 <img width=400 src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
 <br>
-    <p>If you know the enemy and know yourself, you need not fear the result of a hundred battles.</p>
+    <p>"If you know the enemy and know yourself, you need not fear the result of a hundred battles." - Quote by Sun Tzu</p>
 </div>
 <tr>
 <td>                                                                                                                     <h1>PassiveForensics </h1>
