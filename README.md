@@ -8,10 +8,15 @@
 <td> 
 <h1>PassivePackets - Community Edition </h1>
 <p>An <b>Open Source Big Data Forensics/Data Packet Analysis</b> tool that analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. The community version does not do live packet captures and certain scripts have been removed as they can be misused. If you need analytics, forensics, security (penetration testing, intrusion detection systems) contact us and we may be able to help if the request is lawful. 
-    dod approved
-    duns # 
-    poc = aslan.varoqua@duasamericasgroup.com
-    
+    <p>
+       <b> DoD approved contractor </b>
+        <br>
+        <b>legal business name : </b>DUAS AMERICAS GROUP INC
+        <br><b>incorporated:</b>499 NE 46TH STREET, BOCA RATON FL 33431 USA
+        <br><b>Operations:</b>1649 MARKET ST, DENVER CO 80202 USA
+        <br><b>duns #: </b>0801060227
+        <br><b>poc:</b>aslan.varoqua@duasamericasgroup.com
+    </p>
 new features
 - p0f v3.0
 
