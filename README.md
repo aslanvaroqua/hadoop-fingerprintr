@@ -7,7 +7,10 @@
 <tr>
 <td> 
 <h1>PassivePackets - Community Edition </h1>
-<p>An <b>Open Source Big Data Forensics/Data Packet Analysis</b> tool that collects information and analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. 
+<p>An <b>Open Source Big Data Forensics/Data Packet Analysis</b> tool that analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. The community version does not do live packet captures and certain scripts have been removed as they can be misused. If you need analytics, forensics, security (penetration testing, intrusion detection systems) contact us and we may be able to help if the request is lawful. 
+    dod approved
+    duns # 
+    poc = aslan.varoqua@duasamericasgroup.com
     
 new features
 - p0f v3.0
