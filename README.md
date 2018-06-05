@@ -2,15 +2,11 @@
 <div id="black" backgroun="black" align="center">
 <img width=400 src="https://raw.github.com/aslanvaroqua/passiveintel/master/duasamericasgroup.png?style=centerme" />
 <br>
-    <p>"If you know the enemy and know yourself, you need not fear the result of a hundred battles." - Quote by Sun Tzu</p>
 </div>
 <tr>
 <td> 
-<h1>PassivePackets - Community Edition </h1>
-<p>An <b>Open Source Big Data Forensics/Data Packet Analysis</b> tool that analyzes information passively using <a href="http://pig.apache.org/">Apache Pig</a> Hadoop and Mongo. The community version does not do live packet captures and certain scripts have been removed as they can be misused. If you need analytics, forensics, security (penetration testing, intrusion detection systems) contact us and we may be able to help if the request is lawful. 
-    <p>
-       <b> DoD approved contractor </b>
-        <br>
+<h1>Big Data Net Forensics Tools on Hadoop & Apache Pig  </h1>
+
         <b>legal business name : </b>DUAS AMERICAS GROUP INC
         <br><b>incorporated:</b>499 NE 46TH STREET, BOCA RATON FL 33431 USA
         <br><b>Operations:</b>1649 MARKET ST, DENVER CO 80202 USA
