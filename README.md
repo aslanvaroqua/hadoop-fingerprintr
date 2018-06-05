@@ -9,7 +9,7 @@
 <p>
         <b>legal business name : </b>DUAS AMERICAS GROUP INC
         <br><b>incorporated:</b>499 NE 46TH STREET, BOCA RATON FL 33431 USA
-        <br><b>Operations:</b>1649 MARKET ST, DENVER CO 80202 USA
+        <br><b>Operations:</b>,444 17th STREET SUITE 507 DENVER CO 80202 USA
         <br><b>duns #: </b>0801060227
         <br><b>poc:</b>aslan.varoqua@duasamericasgroup.com
 </p>
