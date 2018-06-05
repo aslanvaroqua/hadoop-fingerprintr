@@ -257,6 +257,13 @@ Arguments:
 - pcap: path to the capture (or directory of captures) to work on
 - snortconfig: the path to the snort config (default: built-in snort config)
 
+### pig/examples/p0f-fingerprints.pig
+
+fingerprint devices based on unique tcp packet signatures.
+
+Arguments:
+
+- pcap: path to the capture (or directory of captures) to work on
 
 
 ### pig/examples/protocol_size_histogram.pig
